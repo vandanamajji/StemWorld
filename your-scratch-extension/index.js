@@ -9,7 +9,7 @@ class Scratch3YourExtension {
             .then((syllableModule) => {
                 this.syllable = syllableModule.syllable;
             });
-        // put any setup for your extension here
+        // put any setup for your extension here hello
     }
 
     /**
