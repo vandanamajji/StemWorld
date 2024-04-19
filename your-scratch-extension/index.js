@@ -92,7 +92,7 @@ class Scratch3YourExtension {
      *  this will be called when the block is used
      */
     bookBlock({ BOOK_NUMBER }) {
-        return fetch('https://openlibrary.org/isbn/${BOOK_NUMBER}.json', {
+        return fetch(`https://openlibrary.org/isbn/${BOOK_NUMBER}.json`, {
           method: 'GET'
         })
           .then((response) => {
