@@ -331,7 +331,7 @@ getInfo () {
         // arguments used in the block
         arguments: {
           MY_TEXT: {
-            defaultValue: 'Hello World',
+            defaultValue: 'Stem world',
 
             // type/shape of the parameter
             type: ArgumentType.STRING
